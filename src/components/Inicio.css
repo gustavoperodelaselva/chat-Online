@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.contenedor{
+    width: 90%;
+    margin: auto;
+}
+
+header{
+    padding: 30px 0;
+}
+
+header .contenedor{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+.logo{
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: normal;
+    font-size: 40px;
+    color: rgb(0, 0, 0);
+    background-color: #6ddcec;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #aaa;
+    margin-right: 20px;
+}
+
+header nav a:hover{
+    color: #fff;
+}
+
+.principal{
+    font-size: 16px;
+    min-height: 649px;
+    color: #fff;
+    background: linear-gradient(rgba(0, 0, 0, .50) 0%, rgba(0,0,0,.50) 100%) , url(../assets/chat.jpg);
+    background-position: center center;
+    background-size: cover;
+    margin-bottom: 49px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+}
+
+.principal .contenedor{
+    margin: 0 auto;
+}
+
+.principal .titulo{
+    font-weight: 600;
+    font-size: 49px;
+}
+.principal .descripcion{
+    font-weight: normal;
+    font-size: 16px;
+    margin-left: 100px;
+    margin-right: 100px;
+    line-height: 28px;
+}
+.principal .boton{
+    background: rgba(0, 0, 0, 0.5);
+    border: none;
+    border-radius: 5px;
+    padding: 15px 30px;
+    color: #fff;
+    margin-right: 20px;
+    cursor: pointer;
+    transition: .3s ease all;
+    font-size: 18px;
+    margin-top: 10px;
+}
+
+.principal .boton:hover{
+    background: #fff;
+    color: #000;
+}
+
+.principal .boton i{
+    margin-right: 20px;
+}
