@@ -1,6 +1,5 @@
 import "./Inicio.css";
-import { Link } from "react-router-dom";
-
+import { Link } from "react-router-dom"; 
 export default function Inicio(){
     return (
         <>
@@ -9,8 +8,8 @@ export default function Inicio(){
                 <div className="contenedor">
                     <h2 className="logo">chatOnline</h2>
                     <nav>
-                        <a href="login">Login</a>
-                        <a href="register">Register</a>
+                        <Link to="/login">Login</Link>
+                        <Link to="/register">Register</Link>
                     </nav>
                 </div>
             </header>

@@ -1,9 +1,9 @@
 
-export default function MainPage({user}) {
+export default function MainPage() {
   return (
     <>
 
-        <h1>Welcome back {user}</h1>
+        <h1>Welcome back</h1>
 
     </>
 )
