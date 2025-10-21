@@ -1,7 +1,8 @@
 import { Link, useNavigate } from "react-router-dom"
 import { useState } from "react"
 import  fetchRegister  from "../JS/fetchRegister"
-import "./login.css"
+import video from "../assets/background.mp4"
+import "./register.css"
 
 export default function Register() {
 
@@ -28,31 +29,38 @@ export default function Register() {
   return (
 
     <>
+
         <main>
-        
-            <div className="contenedor1">
+             <video
+                className="background-video"
+                src={video}
+                autoPlay
+                loop
+                muted
+            />
+            <div className="contenedorRegister">
                 <h2>Register</h2>
                 <form action="">
                     <fieldset>
-                        
-                        <div className="regis">
-                            <label htmlFor="user">Usuario: </label>
+                        <legend>𓆩𓆪𓆩𓆪𓆩𓆪𓆩𓆪𓆩𓆪</legend>
+                        <div className="registUser">
                            <input 
 
                             type="text" 
                             name="user" 
                             id="user" 
+                            placeholder="Username"
                             value={RegistUser}
                             onChange={(e) => SetRegistUser(e.target.value)}
                             />
                         </div>
-                        <div className="regis">
-                            <label htmlFor="password">Contraseña: </label>
+                        <div className="registPassword">
 
                            <input 
                             type="password"
                             name="password" 
                             id="password" 
+                            placeholder="Password"
                             value={RegistPassword}
                             onChange={(e) => SetRegistPassword(e.target.value)}
                             />

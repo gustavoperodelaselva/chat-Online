@@ -4,42 +4,65 @@
     box-sizing: border-box;
 }
 
+.login-main{
+    background-color: black;
+    min-height: 100vh;
+}
+
+.videoloop{
+    margin-left: 0px;
+}
 .contenedor1{
     margin: 50px;
     padding: 10px;
+    height: 450px;
     width: 400px;
     text-align: center;
-    background-color: #fff;
-    border: 5px solid black;
+    background-color: #05050544;
+    color: white;
+    border: 1px solid #22cce2;
+    padding-top: 35px;
 }
-fieldset{
+
+.fldLogin{
     border: none;
     margin: 20px;
 }
+
+.fldLogin input{
+    width: 300px;
+    height: 35px;
+    padding: 5px;
+    border: 1px solid #22cce2;
+    outline: none;
+}
+
 .usu{
     margin-bottom: 20px;
 }
-main{
+
+
+.login-main{
     display: flex;
     justify-content: center;
+    font-size: 22px;
 }
 
 
 
-button{
+.btnLogin{
     margin: 20px;
-    background: rgb(0, 0, 0, 0.5);
+    background:  #22cce2;
     border: none;
-    border-radius: 5px;
-    padding: 15px 30px;
+    padding: 7px 16px;
     color: #fff;
     cursor: pointer;
     transition: .3s ease all;
     font-size: 18px;
 }
 
-button:hover{
-    background: black;
+.btnLogin:hover{
+    background: rgb(47, 145, 224);
 }
 
 .regis{
