@@ -57,7 +57,7 @@ main {
   outline: none;
 }
 
-button {
+.register-btn{
   margin: 20px;
   background: #22cce2;
   border: none;
@@ -68,7 +68,7 @@ button {
   font-size: 18px;
 }
 
-button:hover {
+.register-btn:hover {
   background: rgb(47, 145, 224);
 }
 

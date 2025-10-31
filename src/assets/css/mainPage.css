@@ -1,3 +1,16 @@
 body{
     background-image: url(/home/guss/Documentos/Programacion/chat-Online/src/assets/lain.jpeg);
 }
+
+
+.btn-showperfil{
+    margin-top: 30px;
+    margin-left: 12px;
+    width: 45px;
+    height: 35px;
+    background-color: #0a0a0ac2;
+    border: #22cce2 1px solid;
+    color: rgb(241, 236, 236);
+    cursor: pointer;
+    border-radius: 5px;
+}

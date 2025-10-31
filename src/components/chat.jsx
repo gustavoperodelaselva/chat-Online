@@ -42,7 +42,7 @@ export default function Chat() {
         </section>
         <section className="input-section">
             <input type="text" placeholder="Type your message..." />
-            <button>Enviar</button>
+            <button className="enviar-btn">Enviar</button>
         </section>
         </div>
     </main>

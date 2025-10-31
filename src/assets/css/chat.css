@@ -44,7 +44,7 @@ body{
     color: black;
     text-align: center;
     padding: 7px;
-    font-size: 1.5em;
+    font-size: 1.7em;
 }
 
 
@@ -55,10 +55,9 @@ body{
     padding: 5px;
     border: 1px solid #22cce2;
     outline: none;
-    margin-left: 14px;
 }
 
-.input-section button{
+.input-section .enviar-btn{
     width: 98px;
     height: 40px;
     border: 1px solid #22cce2;

@@ -67,7 +67,7 @@ export default function Register() {
 
                         </div>
                         <div> <p>¿Ya tienes cuenta?</p> <Link to={"/login"}>Inicia sesión</Link> </div>
-                        <button type="submit" onClick={handleRegister}>Registrarse</button>
+                        <button className="register-btn" type="submit" onClick={handleRegister}>Registrarse</button>
                     </fieldset>
                 </form>
             </div>
